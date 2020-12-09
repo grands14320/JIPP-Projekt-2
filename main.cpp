@@ -4,7 +4,7 @@
 int main() {
     std::cout << "Hello, World!" << std::endl;
     Hrms hrms;
-    Employee employee0 = Employee("0", "foo0", "bar0", "0", "engineer");
+    Employee employee0 = Employee("0", "Mateusz", "Moneta", "0", "engineer");
     Employee employee1 = Employee("1", "foo1", "bar1", "0", "mechanic");
     Employee employee2 = Employee("2", "foo2", "bar2", "0", "librarian");
     Employee employee3 = Employee("3", "foo3", "bar3", "1", "historian");
@@ -15,7 +15,7 @@ int main() {
     Employee employee8 = Employee("8", "foo8", "bar8", "2", "artist");
     Employee employee9 = Employee("9", "foo9", "bar9", "2", "painter");
 
-    hrms.add(employee0, employee0.getDepartmentId(), 0);
+    hrms.add(employee0, employee0.getDepartmentId(), 10500);
     hrms.add(employee1, employee1.getDepartmentId(), 1000);
     hrms.add(employee2, employee2.getDepartmentId(), 2000);
     hrms.add(employee3, employee3.getDepartmentId(), 3000);
